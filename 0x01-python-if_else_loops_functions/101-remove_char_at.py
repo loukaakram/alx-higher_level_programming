@@ -1,11 +1,6 @@
 #!/usr/bin/python3
-def remove_char_at(s, n):
-    if n < 0 or n >= len(s):
-        return "Index out of range"
-    
-    result = ''
-    for i in range(len(s)):
-        if i != n:
-            result += s[i]
-    return result
+def remove_char_at(str, n):
+    if n < 0:
+        return (str)
+    return (str[:n] + str[n+1:])
 

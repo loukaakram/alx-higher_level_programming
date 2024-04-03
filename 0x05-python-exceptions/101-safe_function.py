@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import sys
 
+import sys
 
 def safe_function(fct, *args):
     try:
